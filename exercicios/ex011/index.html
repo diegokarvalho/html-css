@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+    <p>Tente aumentar ou diminuir o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem dinamica">
+    </picture>
+
+    <h1>reproduzindo Áudio</h1>
+<audio src="midia/mr-turtle-by-the-green-orbs.mp3" controls></audio> <!--controls parametro-->  
+<!-- mp3 ogg wav-->
+
+<audio  controls preload="metadata"><!-- evitar  AUTO -->>
+    <source src="midia/mr-turtle-by-the-green-orbs.mp3" type="audio/mpeg"> <!--  mais type no pdf -->
+    <source src="midia/mr-turtle-by-the-green-orbs.ogg" type="sudio/ogg">
+    <source src="midia/mr-turtle-by-the-green-orbs.wav" type="aoudio/wav">
+    <p>infelizmento o seu navegador não pode reproduzir áudios</p>
+    <p><a href="midia/mr-turtle-by-the-green-orbs.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+
+</audio>
+<h2>Incorporando vídeos do YouTube</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NQNqUVUGUx4?si=AGAlduyPEUQhDN01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

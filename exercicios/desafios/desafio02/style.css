@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face{
+    font-family:"android";
+    src:url(fontes/idroid.otf), format(otf);
+}
+body{
+    font-family: a;
+    margin: 0px;
+    background-color: #178c4a66;
+    text-align: justify;
+    text-indent: 20px;
+}
+h2{
+    font-family: "android";
+    color: #034720;
+}
+h3{
+    font-family: 'android';
+    background-image: linear-gradient( to right, rgba(0, 128, 0, 0.698), white);
+    color: #034720;
+}
+mark{
+    background-color:transparent;
+    color: #059b35;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.56);
+}
+header{
+    background-image:linear-gradient(to top, #038c3e98, #0cf25d9a);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.518);
+}
+header>h1{
+    font-family: 'android';
+    margin-top: 0px;
+    padding-top: 10px;
+}
+header>nav{
+    text-align:left;
+    background-color:#038c3e98
+}
+
+header>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+header>nav>a:hover{
+    text-decoration: underline;
+    background-color: rgba(168, 220, 190, 0.595);
+}
+section{
+    width: 820px;
+    background-color:white;
+    margin: 0px auto 0px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.347);
+}
+section>article{
+    padding:5px;
+}
+section>article>p>a{
+    background-image:linear-gradient(to right, #038c3edb , rgba(157, 228, 103, 0.401));
+    color: rgb(9, 68, 2);
+    font-weight: bolder;
+}
+section>article>p>a::after{
+    content: '[link]';
+}
+section>article>div#img{
+   margin-left: 25%;
+}
+section>article>div#video{
+    padding: 10px;
+    margin: 0px;
+    background-color: #038C3E;
+}
+section>article>div#video>iframe{
+    margin: 0px;
+}
+
+
+section>article#extraa{
+     background-color: #0cf25d73;
+     padding: 0px;
+     width: 750px;
+     margin: auto;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.405);
+     border-radius: 10px;
+}
+div#extra{
+    padding:10px;
+    border-radius: 5px;
+}
+article#extraa>h3{
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #038C3E;
+    padding: 5px;
+    font-size: 1.5em;
+}
+section>p{
+    background-color: white;
+    padding: 10px;
+    text-indent: 20px;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.351);
+ 
+}
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+footer>p{
+    margin: 0px;
+}
